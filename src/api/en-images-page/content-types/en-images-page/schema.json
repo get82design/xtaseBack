@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "en_images_pages",
+  "info": {
+    "singularName": "en-images-page",
+    "pluralName": "en-images-pages",
+    "displayName": "EnImagesPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.hero"
+    }
+  }
+}
