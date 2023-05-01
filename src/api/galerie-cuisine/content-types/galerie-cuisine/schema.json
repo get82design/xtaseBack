@@ -4,7 +4,8 @@
   "info": {
     "singularName": "galerie-cuisine",
     "pluralName": "galerie-cuisines",
-    "displayName": "GalerieCuisine"
+    "displayName": "GalerieCuisine",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,14 +17,15 @@
   },
   "attributes": {
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
