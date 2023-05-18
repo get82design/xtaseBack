@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_background_videos",
   "info": {
-    "displayName": "backgroundVideo"
+    "displayName": "backgroundVideo",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,14 +11,6 @@
     },
     "subTitleOnVideo": {
       "type": "string"
-    },
-    "bgVideo": {
-      "allowedTypes": [
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
     }
   }
 }
