@@ -4,7 +4,8 @@
   "info": {
     "singularName": "en-images-page",
     "pluralName": "en-images-pages",
-    "displayName": "EnImagesPage"
+    "displayName": "EnImagesPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -34,6 +35,38 @@
         }
       },
       "component": "section.hero"
+    },
+    "chambreDesc": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "bedroomDesc": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "bathroomDesc": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "kitchenDesc": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }
