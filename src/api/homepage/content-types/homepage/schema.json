@@ -103,7 +103,7 @@
         }
       }
     },
-    "linkLabel": {
+    "buttonConcept": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -202,16 +202,27 @@
       }
     },
     "videoBg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "videos"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
+    },
+    "buttonGalerie": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.button-resa"
     }
   }
 }

@@ -37,17 +37,27 @@
       "component": "section.hero"
     },
     "imgHero": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
+      }
+    },
+    "buttonDiscut": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
       },
-      "required": true
+      "component": "shared.button-resa"
     }
   }
 }

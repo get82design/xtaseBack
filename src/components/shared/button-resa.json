@@ -17,6 +17,9 @@
         "underline"
       ],
       "required": true
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
